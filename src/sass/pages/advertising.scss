@@ -1,0 +1,107 @@
+@use "../utilites/color.scss" as clr;
+
+.ads {
+
+
+    width: 100%;
+
+
+
+    &_header {
+        padding: 1rem 3rem;
+        border-bottom: 1px solid clr.$primary_color;
+
+        &_title {
+            margin-bottom: 1.5rem;
+
+            h1 {
+                font-size: 25px;
+            }
+        }
+
+        &_options {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            align-items: center;
+
+            &-dropdown {
+                display: flex;
+                gap: 1rem;
+            }
+
+            &-date {
+                border: 1px solid clr.$primary_color;
+                display: flex;
+                gap: 1rem;
+                align-items: center;
+                padding: 5px 1rem;
+            }
+        }
+    }
+
+    &_graphs {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 5px 1rem;
+        justify-content: center;
+
+        .graph {
+            border: 1px solid clr.$primary_color;
+            padding: 5px 0.5rem;
+
+            &_header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 1px solid clr.$primary_color;
+                padding: 1rem 0px;
+
+
+                &_info {
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+                }
+            }
+
+            &_specs {
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        .specs {
+            padding: 1rem 0px;
+            margin-right: 0.5rem;
+
+            p {
+                font-size: 14px;
+            }
+
+            &_details {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                padding: 2px 0px;
+
+                &_icon {
+                    border-radius: 2px;
+                    height: 0.8rem;
+                    width: 0.8rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+            }
+
+        }
+    }
+
+    &_table {
+        padding: 2rem 3rem;
+    }
+}

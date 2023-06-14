@@ -1,0 +1,42 @@
+.nav {
+  border-right: 1px solid #D2DDEE;
+}
+.nav_items .icon {
+  color: #BDC9DC;
+  margin: 0.8rem 1rem;
+}
+.nav_items_icon {
+  width: 80%;
+  height: 80%;
+  color: whitesmoke;
+  transform: rotate(332deg);
+  padding: 2px;
+}
+.nav_items ul {
+  list-style: none;
+}
+.nav_items-icon {
+  width: 2rem;
+  height: 2rem;
+  background-color: #D2DDEE;
+  border-radius: 10px;
+}
+.nav_items a {
+  display: flex;
+  position: relative;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0.8rem 0.5rem;
+  text-decoration: none;
+  color: black;
+}
+.nav_items a p {
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.nav_items-option {
+  width: 0.2rem;
+  height: 2rem;
+  background-color: orange;
+}/*# sourceMappingURL=nav.css.map */

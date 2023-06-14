@@ -1,0 +1,451 @@
+export let data = [{
+    "logo": false,
+    "name": "Tagfeed",
+    "price1": "$20660.69",
+    "stratergy": true,
+    "price2": "$18287.08",
+    "price3": "$7313.50",
+    "price4": "$14.30",
+    "percentage": 16
+}, {
+    "logo": false,
+    "name": "Rhycero",
+    "price1": "$18199.89",
+    "stratergy": false,
+    "price2": "$10517.07",
+    "price3": "$5504.68",
+    "price4": "$9.70",
+    "percentage": 11
+}, {
+    "logo": true,
+    "name": "Cogibox",
+    "price1": "$31592.37",
+    "stratergy": false,
+    "price2": "$14060.60",
+    "price3": "$3087.04",
+    "price4": "$8.87",
+    "percentage": 17
+}, {
+    "logo": false,
+    "name": "Trunyx",
+    "price1": "$33091.41",
+    "stratergy": false,
+    "price2": "$26844.36",
+    "price3": "$11677.41",
+    "price4": "$2.27",
+    "percentage": 12
+}, {
+    "logo": true,
+    "name": "Demizz",
+    "price1": "$14965.82",
+    "stratergy": true,
+    "price2": "$10991.80",
+    "price3": "$14192.29",
+    "price4": "$1.95",
+    "percentage": 12
+}, {
+    "logo": false,
+    "name": "Zooveo",
+    "price1": "$30344.44",
+    "stratergy": false,
+    "price2": "$24053.15",
+    "price3": "$6690.78",
+    "price4": "$6.54",
+    "percentage": 23
+}, {
+    "logo": true,
+    "name": "Trudoo",
+    "price1": "$23923.09",
+    "stratergy": true,
+    "price2": "$26188.98",
+    "price3": "$11465.91",
+    "price4": "$6.90",
+    "percentage": 20
+}, {
+    "logo": true,
+    "name": "Realcube",
+    "price1": "$24792.02",
+    "stratergy": false,
+    "price2": "$21077.14",
+    "price3": "$5231.62",
+    "price4": "$3.25",
+    "percentage": 18
+}, {
+    "logo": false,
+    "name": "Babbleset",
+    "price1": "$21421.02",
+    "stratergy": true,
+    "price2": "$25501.25",
+    "price3": "$3063.30",
+    "price4": "$4.58",
+    "percentage": 17
+}, {
+    "logo": false,
+    "name": "Brainsphere",
+    "price1": "$38638.49",
+    "stratergy": true,
+    "price2": "$21464.60",
+    "price3": "$7637.58",
+    "price4": "$4.52",
+    "percentage": 10
+}, {
+    "logo": true,
+    "name": "Dynabox",
+    "price1": "$27481.12",
+    "stratergy": true,
+    "price2": "$11817.51",
+    "price3": "$7738.57",
+    "price4": "$6.70",
+    "percentage": 21
+}, {
+    "logo": false,
+    "name": "Realcube",
+    "price1": "$36643.32",
+    "stratergy": false,
+    "price2": "$16857.37",
+    "price3": "$7136.31",
+    "price4": "$7.42",
+    "percentage": 22
+}, {
+    "logo": false,
+    "name": "Quinu",
+    "price1": "$32770.07",
+    "stratergy": false,
+    "price2": "$27982.65",
+    "price3": "$12322.16",
+    "price4": "$6.48",
+    "percentage": 16
+}, {
+    "logo": true,
+    "name": "Topicshots",
+    "price1": "$32703.56",
+    "stratergy": false,
+    "price2": "$11186.92",
+    "price3": "$12423.56",
+    "price4": "$11.28",
+    "percentage": 10
+}, {
+    "logo": true,
+    "name": "Ozu",
+    "price1": "$35030.19",
+    "stratergy": false,
+    "price2": "$11207.19",
+    "price3": "$4001.05",
+    "price4": "$8.13",
+    "percentage": 17
+}, {
+    "logo": false,
+    "name": "Skyvu",
+    "price1": "$15255.95",
+    "stratergy": false,
+    "price2": "$24541.16",
+    "price3": "$10790.61",
+    "price4": "$4.17",
+    "percentage": 19
+}, {
+    "logo": true,
+    "name": "Topiczoom",
+    "price1": "$20425.72",
+    "stratergy": true,
+    "price2": "$24405.32",
+    "price3": "$4182.49",
+    "price4": "$14.20",
+    "percentage": 22
+}, {
+    "logo": false,
+    "name": "Dabvine",
+    "price1": "$32998.83",
+    "stratergy": false,
+    "price2": "$24427.89",
+    "price3": "$13633.97",
+    "price4": "$6.66",
+    "percentage": 15
+}, {
+    "logo": false,
+    "name": "Jetwire",
+    "price1": "$23686.26",
+    "stratergy": true,
+    "price2": "$20334.67",
+    "price3": "$14524.42",
+    "price4": "$12.52",
+    "percentage": 23
+}, {
+    "logo": true,
+    "name": "Twitternation",
+    "price1": "$35887.28",
+    "stratergy": false,
+    "price2": "$19151.98",
+    "price3": "$6101.07",
+    "price4": "$2.12",
+    "percentage": 17
+}, {
+    "logo": false,
+    "name": "Mita",
+    "price1": "$17297.57",
+    "stratergy": true,
+    "price2": "$12275.37",
+    "price3": "$8528.26",
+    "price4": "$3.01",
+    "percentage": 23
+}, {
+    "logo": true,
+    "name": "Trudeo",
+    "price1": "$36690.94",
+    "stratergy": false,
+    "price2": "$20312.44",
+    "price3": "$4310.40",
+    "price4": "$11.44",
+    "percentage": 10
+}, {
+    "logo": true,
+    "name": "Livefish",
+    "price1": "$38126.45",
+    "stratergy": false,
+    "price2": "$26082.65",
+    "price3": "$11476.55",
+    "price4": "$14.08",
+    "percentage": 21
+}, {
+    "logo": false,
+    "name": "Wordtune",
+    "price1": "$25013.58",
+    "stratergy": true,
+    "price2": "$24022.98",
+    "price3": "$9824.29",
+    "price4": "$9.33",
+    "percentage": 12
+}, {
+    "logo": false,
+    "name": "Meejo",
+    "price1": "$33765.74",
+    "stratergy": false,
+    "price2": "$12450.48",
+    "price3": "$10347.14",
+    "price4": "$2.23",
+    "percentage": 19
+}, {
+    "logo": false,
+    "name": "Flashpoint",
+    "price1": "$28337.06",
+    "stratergy": false,
+    "price2": "$14472.84",
+    "price3": "$13597.84",
+    "price4": "$9.65",
+    "percentage": 22
+}, {
+    "logo": true,
+    "name": "Yakidoo",
+    "price1": "$19137.69",
+    "stratergy": true,
+    "price2": "$20657.49",
+    "price3": "$6672.66",
+    "price4": "$12.39",
+    "percentage": 16
+}, {
+    "logo": false,
+    "name": "Bluejam",
+    "price1": "$28706.40",
+    "stratergy": false,
+    "price2": "$10519.78",
+    "price3": "$11523.00",
+    "price4": "$2.09",
+    "percentage": 17
+}, {
+    "logo": false,
+    "name": "Roombo",
+    "price1": "$38266.84",
+    "stratergy": false,
+    "price2": "$21657.68",
+    "price3": "$12950.38",
+    "price4": "$14.46",
+    "percentage": 21
+}, {
+    "logo": false,
+    "name": "Roodel",
+    "price1": "$25036.64",
+    "stratergy": false,
+    "price2": "$29335.12",
+    "price3": "$14021.66",
+    "price4": "$14.68",
+    "percentage": 13
+}, {
+    "logo": true,
+    "name": "Muxo",
+    "price1": "$13761.78",
+    "stratergy": true,
+    "price2": "$26519.22",
+    "price3": "$3656.74",
+    "price4": "$6.76",
+    "percentage": 20
+}, {
+    "logo": false,
+    "name": "Tekfly",
+    "price1": "$23716.34",
+    "stratergy": true,
+    "price2": "$27181.54",
+    "price3": "$6676.78",
+    "price4": "$11.88",
+    "percentage": 19
+}, {
+    "logo": true,
+    "name": "Realcube",
+    "price1": "$27631.82",
+    "stratergy": false,
+    "price2": "$11335.13",
+    "price3": "$9528.91",
+    "price4": "$5.00",
+    "percentage": 18
+}, {
+    "logo": true,
+    "name": "Zoovu",
+    "price1": "$26317.43",
+    "stratergy": false,
+    "price2": "$21653.30",
+    "price3": "$14375.77",
+    "price4": "$4.90",
+    "percentage": 20
+}, {
+    "logo": true,
+    "name": "Fatz",
+    "price1": "$35374.43",
+    "stratergy": true,
+    "price2": "$19467.32",
+    "price3": "$3179.48",
+    "price4": "$9.44",
+    "percentage": 16
+}, {
+    "logo": true,
+    "name": "Yabox",
+    "price1": "$34390.77",
+    "stratergy": false,
+    "price2": "$13531.98",
+    "price3": "$13099.77",
+    "price4": "$11.06",
+    "percentage": 21
+}, {
+    "logo": true,
+    "name": "Oozz",
+    "price1": "$16498.78",
+    "stratergy": true,
+    "price2": "$13732.77",
+    "price3": "$5631.07",
+    "price4": "$8.84",
+    "percentage": 13
+}, {
+    "logo": true,
+    "name": "Skipstorm",
+    "price1": "$14448.78",
+    "stratergy": false,
+    "price2": "$15666.11",
+    "price3": "$10705.36",
+    "price4": "$9.26",
+    "percentage": 17
+}, {
+    "logo": true,
+    "name": "Lajo",
+    "price1": "$38090.41",
+    "stratergy": true,
+    "price2": "$10529.26",
+    "price3": "$11569.72",
+    "price4": "$10.53",
+    "percentage": 19
+}, {
+    "logo": true,
+    "name": "Pixonyx",
+    "price1": "$35681.07",
+    "stratergy": false,
+    "price2": "$26520.81",
+    "price3": "$6119.88",
+    "price4": "$13.59",
+    "percentage": 12
+}, {
+    "logo": true,
+    "name": "Topicware",
+    "price1": "$28655.11",
+    "stratergy": false,
+    "price2": "$16037.48",
+    "price3": "$3058.97",
+    "price4": "$10.25",
+    "percentage": 22
+}, {
+    "logo": false,
+    "name": "Zoomzone",
+    "price1": "$36800.34",
+    "stratergy": false,
+    "price2": "$22085.16",
+    "price3": "$3040.33",
+    "price4": "$2.73",
+    "percentage": 23
+}, {
+    "logo": true,
+    "name": "Dabshots",
+    "price1": "$25541.94",
+    "stratergy": true,
+    "price2": "$14979.62",
+    "price3": "$5197.93",
+    "price4": "$2.61",
+    "percentage": 19
+}, {
+    "logo": true,
+    "name": "Oyonder",
+    "price1": "$18976.29",
+    "stratergy": false,
+    "price2": "$22891.35",
+    "price3": "$11688.69",
+    "price4": "$7.05",
+    "percentage": 13
+}, {
+    "logo": false,
+    "name": "Brainsphere",
+    "price1": "$31067.43",
+    "stratergy": false,
+    "price2": "$11867.20",
+    "price3": "$10772.82",
+    "price4": "$3.07",
+    "percentage": 17
+}, {
+    "logo": true,
+    "name": "Meevee",
+    "price1": "$16917.45",
+    "stratergy": true,
+    "price2": "$29043.35",
+    "price3": "$7743.66",
+    "price4": "$2.23",
+    "percentage": 21
+}, {
+    "logo": false,
+    "name": "Brightdog",
+    "price1": "$19078.73",
+    "stratergy": true,
+    "price2": "$22067.67",
+    "price3": "$3741.48",
+    "price4": "$11.39",
+    "percentage": 16
+}, {
+    "logo": true,
+    "name": "Demimbu",
+    "price1": "$36640.91",
+    "stratergy": true,
+    "price2": "$29845.90",
+    "price3": "$13031.19",
+    "price4": "$7.74",
+    "percentage": 20
+}, {
+    "logo": false,
+    "name": "Babbleopia",
+    "price1": "$29668.33",
+    "stratergy": false,
+    "price2": "$23410.54",
+    "price3": "$10659.84",
+    "price4": "$1.45",
+    "percentage": 21
+}, {
+    "logo": false,
+    "name": "Dabvine",
+    "price1": "$23828.45",
+    "stratergy": true,
+    "price2": "$13386.42",
+    "price3": "$6109.27",
+    "price4": "$9.95",
+    "percentage": 11
+}]

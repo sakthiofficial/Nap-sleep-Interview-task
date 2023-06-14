@@ -1,0 +1,63 @@
+@use "../utilites/color.scss" as clr;
+
+.nav {
+
+
+
+    border-right: 1px solid clr.$primary_color;
+
+    &_items {
+
+
+        .icon {
+            color: #BDC9DC;
+            margin: 0.8rem 1rem;
+
+        }
+
+        &_icon {
+            width: 80%;
+            height: 80%;
+            color: whitesmoke;
+            transform: rotate(332deg);
+            padding: 2px
+        }
+
+
+        ul {
+            list-style: none;
+        }
+
+        &-icon {
+            width: 2rem;
+            height: 2rem;
+            background-color: clr.$primary_color;
+            border-radius: 10px;
+        }
+
+        a {
+            display: flex;
+            position: relative;
+            gap: 0.5rem;
+            align-items: center;
+            padding: 0.8rem 0.5rem;
+            text-decoration: none;
+            color: black;
+
+            p {
+                font-size: 14px;
+                font-weight: 500;
+                cursor: pointer;
+            }
+
+        }
+
+        &-option {
+            width: 0.2rem;
+            height: 2rem;
+            background-color: orange;
+        }
+    }
+
+
+}

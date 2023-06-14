@@ -1,0 +1,81 @@
+.ads {
+  width: 100%;
+}
+.ads_header {
+  padding: 1rem 3rem;
+  border-bottom: 1px solid #D2DDEE;
+}
+.ads_header_title {
+  margin-bottom: 1.5rem;
+}
+.ads_header_title h1 {
+  font-size: 25px;
+}
+.ads_header_options {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.ads_header_options-dropdown {
+  display: flex;
+  gap: 1rem;
+}
+.ads_header_options-date {
+  border: 1px solid #D2DDEE;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 5px 1rem;
+}
+.ads_graphs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 5px 1rem;
+  justify-content: center;
+}
+.ads_graphs .graph {
+  border: 1px solid #D2DDEE;
+  padding: 5px 0.5rem;
+}
+.ads_graphs .graph_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #D2DDEE;
+  padding: 1rem 0px;
+}
+.ads_graphs .graph_header_info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.ads_graphs .graph_specs {
+  display: flex;
+  align-items: center;
+}
+.ads_graphs .specs {
+  padding: 1rem 0px;
+  margin-right: 0.5rem;
+}
+.ads_graphs .specs p {
+  font-size: 14px;
+}
+.ads_graphs .specs_details {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 2px 0px;
+}
+.ads_graphs .specs_details_icon {
+  border-radius: 2px;
+  height: 0.8rem;
+  width: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ads_table {
+  padding: 2rem 3rem;
+}/*# sourceMappingURL=advertising.css.map */
